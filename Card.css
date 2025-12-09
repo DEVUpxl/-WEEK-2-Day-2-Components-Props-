@@ -1,0 +1,32 @@
+.card {
+  width: 260px;
+  padding: 20px;
+  background: #1b1b1b;
+  border-radius: 15px;
+  border: 1px solid #444;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #6f42c1;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.card h3 {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.category {
+  color: #6f42c1;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #ccc;
+}
